@@ -1,0 +1,107 @@
+
+nav > a{
+    margin-left: 45px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(221, 69, 69);
+    width: fit-content;
+
+}    
+
+nav >a:hover{
+    color: whitesmoke;
+    border-radius: 15px;
+    background-color: brown;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > a:active{
+    color:chartreuse;
+    background-color: white;
+    text-decoration: underline;
+}
+#bigLetters{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 5px;
+}
+main{
+    margin-left: 30px;
+}
+.fields{
+    word-spacing: 200px;
+    font-size: 17px;
+    text-align: left;
+    font-family: Tahoma;
+    margin-top: 15px;
+
+}
+
+#contactCSS{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+
+}
+.job-areas{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown; 
+    margin-bottom: 10px;
+}
+.nice-button{
+    background-color: brown; 
+    width: fit-content; 
+    border-radius: 25px; 
+    padding: 15px 40px 15px 40px; 
+    border: solid black; 
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: large;
+}
+.info {
+    padding-top: 30px;
+
+}
+img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 14%;
+    border-radius:200px ;
+    
+}
+#myName{
+    color: brown;
+    font-weight: bold; 
+    text-indent: 4px;
+    size: 50px;
+}
+#contactIcons {
+    text-align: right;
+    word-spacing: 10px;
+    top: 5px;
+    font-size: large;
+    position: absolute;
+    left: 85%;
+    top: 15px;
+
+}    
+.bxl-whatsapp{
+    color: green;
+}
+.bxl-twitter{
+    color: lightskyblue
+}
+.bxl-github{
+    color: darkblue;
+}
+.bx{
+    margin-right: 20px;
+}
